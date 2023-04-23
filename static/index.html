@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Seismetic</title>
+    <meta name="googlebot" content="noindex, nofollow, nosnippet" />
+    <link rel="shortcut icon" content="favicon.ico" />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="./JS/particles.js" defer></script>
+    <script src="index.js" defer></script>
+    <script src="./JS/quickload.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="apps.html">Apps</a></li>
+        <li><a href="index.html">Search</a></li>
+      </ul>
+    </nav>
+      <center><img id="seism" src="./img/seissmetic.png" alt="Seismetic" /></center>
+    <form id="uv-form" class="flex-center">
+      <input id="uv-address" type="text" placeholder="Search the web freely" />
+    </form>
+    <div class="desc left-margin">
+      <p id="uv-error"></p>
+      <pre id="uv-error-code"></pre>
+    </div>
+    <div id="particles-js"></div><span class="js-count-particles">--</span> <script src="./JS/min.js"></script> <!-- stats.js lib -->
+  </body>
+</html>

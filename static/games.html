@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+		function removeElements() {
+			// Get the elements to remove
+			var particlesDiv = document.getElementById("particles-js");
+			var countSpan = document.querySelector(".js-count-particles");
+			var scriptTag = document.querySelector("script[src='./JS/min.js']");
+      var link = document.querySelector("#my-link");
+
+			// Remove the elements from the DOM
+			particlesDiv.remove();
+			countSpan.remove();
+			scriptTag.remove();
+      link.remove();
+		}
+    </script>
+    <meta charset="utf-8" />
+    <title>Seismetic | Games</title>
+    <meta name="googlebot" content="noindex, nofollow, nosnippet" />
+    <link rel="shortcut icon" content="/img/Sm.png" />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="./JS/particles.js" defer></script>
+    <script src="index.js" defer></script>
+    <script src="./JS/window.js" defer></script>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./css/windows.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="apps.html">Apps</a></li>
+        <li><a href="index.html">Search</a></li>
+      </ul>
+    </nav> 
+    <a id="my-link" onclick="removeElements()">Remove Particles for more FPS</a>
+    <div class="center">
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/1v1-lol.webp" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>1v1.lol</p>
+          <button onclick="openWindow('https://1v1.lol')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+    
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="img/GAMES/zombs.jpeg" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Zombs Royale</p>
+          <button onclick="openWindow('https://zombsroyale.io')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+    
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="img/GAMES/trex-run-3D.webp" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>3D Dino Run</p>
+          <button onclick="openWindow('https://lagged.com/api/play2/t-rex-3d2/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="img/GAMES/pixel-shooter.webp" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Pixel Shooter</p>
+          <button onclick="openWindow(''https://94bfktj403i6m18as4vkvtreqd0ohci4-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://274019683-173520394482650759.preview.editmysite.com/uploads/b/139890129-131715539788281629/files/ps.xml')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/doodle-jump/doodle.png" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>doodle jump</p>
+          <button onclick="classic('./g_file/doodle-jump/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/slope.png" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Slope</p>
+          <button onclick="classic('./g_file/slope')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/googlesnake.png" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Google Snake</p>
+          <button onclick="openWindow('https://www.google.com/search?q=google+snake')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/SuperMario.png" alt="Your Image" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Super Mario 64</p>
+          <button onclick="window.location.href='./g_file/sm64'" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/hot.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>SuperHot</p>
+          <button onclick="classic('./g_file/superhot')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/vex3/vex3.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Vex3 (3KH0)</p>
+          <button onclick="classic('./g_file/vex3/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/vex4/vex4.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Vex4 (3KH0)</p>
+          <button onclick="classic('./g_file/vex4/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/vex5/vex.jpeg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Vex5 (3KH0)</p>
+          <button onclick="classic('./g_file/vex5/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/vex6/assets/icon.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Vex6 (3KH0)</p>
+          <button onclick="classic('./g_file/vex6/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/vex7/assets/icon.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Vex7 (3KH0)</p>
+          <button onclick="classic('./g_file/vex7/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/getaway.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Getaway Shootout</p>
+          <button onclick="openWindow('https://games.crazygames.com/en_US/getaway-shootout/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/badpiggies.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Bad Piggies</p>
+          <button onclick="openWindow('https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2018/swf/badpiggie3.swf&w=960&h=600')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/redball4.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Red Ball 4</p>
+          <button onclick="openWindow('https://musical-dieffenbachia-3ee8cb.netlify.app/g/gfiles/gfiles/flash/?swf=redball4.swf')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/eggycar.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Eggy Car</p>
+          <button onclick="openWindow('https://webglmath.github.io/eggy-car/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/paperiofix.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Paper IO</p>
+          <button onclick="openWindow('https://paper-io.com/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/br.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Basket Random</p>
+          <button onclick="openWindow('https://www.twoplayergames.org/gameframe/basket-random')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/basketball-stars.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Basketball Stars</p>
+          <button onclick="openWindow('https://basketball-stars.io/1.embed')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/run3.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Run 3</p>
+          <button onclick="openWindow('https://www.coolmathgames.com/0-run-3/play')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/fnf.gif" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Friday Night Funkin</p>
+          <button onclick="classic('/g_file/fnf/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/2048/2048.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>2048</p>
+          <button onclick="classic('/g_file/2048')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/krunker.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>krunker.io</p>
+          <button onclick="openWindow('https://krunker.io')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/slither.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>slither.io</p>
+          <button onclick="openWindow('https://slither.io')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/agario.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>agar.io</p>
+          <button onclick="openWindow('https://agar.io')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/diep.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>diep.io</p>
+          <button onclick="openWindow('https://diep.io')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/just-fall-lol.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>justfall.lol</p>
+          <button onclick="openWindow('https://justfall.lol')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/SubwaySurfers.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Subway Surfers</p>
+          <button onclick="openWindow('https://dddavit.github.io/subway/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/8ball.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>8 Ball Pool</p>
+          <button onclick="openWindow('https://8ball-pool.io')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/dm.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Drive Mad</p>
+          <button onclick="classic('./g_file/dm')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/elasticman.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Elastic Man</p>
+          <button onclick="openWindow('https://d21u3ic0kp9e91.cloudfront.net/elasticman/0/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/paper-mario-64.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Paper Mario 64</p>
+          <button onclick="openWindow('https://f.kbhgames.com/r/n64/game.php?file=Paper%20Mario%20(USA).zip')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/drift-hunters.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Drift Hunters</p>
+          <button onclick="openWindow('https://webglmath.github.io/drift-hunters/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/smashkarts.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Smash Karts</p>
+          <button onclick="openWindow('https://smashkarts.io/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/friv.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>FRIV</p>
+          <button onclick="openWindow('https://www.friv.com/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./g_file/drift-boss/splash.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Drift Boss</p>
+          <button onclick="classic('./g_file/drift-boss')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./g_file/cookie-clicker/cookie1.jpeg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Cookie Clicker</p>
+          <button onclick="classic('./g_file/cookie-clicker/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/deepest-sword.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Deepest Sword</p>
+          <button onclick="openWindow('https://v6p9d9t4.ssl.hwcdn.net/html/4017918/index.htm')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/interactive-buddy.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Interactive Buddy</p>
+          <button onclick="openWindow('https://f.silvergames.com/ruffle/player.php?id=204')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/gba.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>GBA Games</p>
+          <button onclick="openWindow('https://cattn.github.io/gba/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+       <!---->
+       <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/chess.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>chess.com</p>
+          <button onclick="openWindow('https://chess.com')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/aa.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Ace Attorney</p>
+          <button onclick="openWindow('https://f.kbhgames.com/r/gba/?r=ace-attorney')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/tanuki.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Tanuki Sunset</p>
+          <button onclick="openWindow('https://watchdocumentaries.com/wp-content/uploads/games/tanuki-sunset')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/flip.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>3D Water Bottle Flip</p>
+          <button onclick="openWindow('https://games.crazygames.com/en_US/flip-bottle/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/Capybara.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Capybara clicker</p>
+          <button onclick="openWindow('https://games.crazygames.com/en_US/capybara-clicker/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/sugarsugar.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Sugar Sugar</p>
+          <button onclick="openWindow('https://66564262-37c6-4095-a731-535342e4bbe4.poki-gdn.com/5bd6e8c6-381d-4de5-9823-96662d29afaf/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/sugar-sugar-2.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Sugar Sugar 2</p>
+          <button onclick="openWindow('https://games.crazygames.com/en_US/sugar-sugar-2/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/crossyroad/crossyroad.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Crossy Road</p>
+          <button onclick="classic('/g_file/crossyroad/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/bloxorz.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Bloxorz</p>
+          <button onclick="openWindow('https://www.coolmathgames.com/0-bloxorz/play')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/xboxfortnite.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Fortnite Xbox</p>
+          <button onclick="openWindow('https://www.xbox.com/en-US/play/games/fortnite/BT5P2X999VH2')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/nvdianite.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Fortnite NVDIA</p>
+          <button onclick="openWindow('https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a&lang=en_US')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/Hole.io_logo.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>HoleIO</p>
+          <button onclick="openWindow('https://hole-io.com/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/mm.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Monkey Mart</p>
+          <button onclick="openWindow('https://html5.gamemonetize.co/ugi7ftbv2kgodcq7vful9u9v34wein5z/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/cluster-rush.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Cluster Rush</p>
+          <button onclick="classic('./g_file/crush')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/osu!/osu.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>osu!</p>
+          <button onclick="openWindow('./g_file/osu!/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/win93.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Windows93</p>
+          <button onclick="openWindow('https://windows93.net')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/xp.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Geekprank XP</p>
+          <button onclick="openWindow('https://geekprank.com')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/baldi.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Baldi Basics</p>
+          <button onclick="openWindow('https://baldisbasics.io/baldis-basics.embed')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/geometry.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Geometry Dash</p>
+          <button onclick="classic('./g_file/geometry')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./g_file/stickman-hook/stickman.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Stickman Hook</p>
+          <button onclick="classic('./g_file/stickman-hook/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/bitlife.png" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>BitLife</p>
+          <button onclick="openWindow('https://xlegends.github.io/bitlife/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/retroarch.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>RetroArch</p>
+          <button onclick="openWindow('https://binbashbanana.github.io/webretro/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/2D-Rocket-League.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>2D Rocket League</p>
+          <button onclick="openWindow('https://v6p9d9t4.ssl.hwcdn.net/html/3325334/index.html')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/Southpark_video_game_cover-1-.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>South Park N64</p>
+          <button onclick="openWindow('https://f.kbhgames.com/r/n64/game.php?file=South-Park-U-.zip')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/shell-shockers.webp" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Shell Shockers</p>
+          <button onclick="openWindow('https://shellshock.io/')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/super-smash-bros-64.jpg" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Smash Bros 64</p>
+          <button onclick="openWindow('https://emulatorgames.online/games/n64/super-smash-bros')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/example" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Example</p>
+          <button onclick="openWindow('example')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+      <!---->
+      <div class="container">
+        <div class="image-container">
+          <img src="./img/GAMES/example" alt="GameImage" class="rounded-image">
+        </div>
+        <div class="text-container">
+          <p>Example</p>
+          <button onclick="openWindow('example')" id="tab-button">Play</button>
+        </div>
+      </div>
+      <!---->
+    </div>
+    <div id="particles-js">Particles div content</div>
+    <span class="js-count-particles">--</span>
+    <script src="./JS/min.js"></script>
+  </body>
+</html>
