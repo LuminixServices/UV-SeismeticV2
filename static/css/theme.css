@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.fa-magnifying-glass {
+  color: white;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.header-center {
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.left-margin {
+  margin: 0px 16px;
+}
+
+#uv-error {
+  color: #ff6666 !important;
+  white-space: pre-wrap;
+}
+
+#uv-error-code {
+  font-size: 12px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#uv-register-sw {
+  color: white;
+  background: #555555;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 16px 20px;
+  line-height: 16px;
+  display: none;
+}
+
+#uv-register-sw:active {
+  background: #333333;
+}
+
+#uv-register-sw.show {
+  display: block;
+}
+
+.logo-wrapper .text {
+  font-size: 75px;
+  color: #fff;
+}
+
+.logo-wrapper h1 {
+  color: white;
+}
+
+footer {
+  margin-top: auto;
+  width: 93%;
+  align-self: center;
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+footer a,
+footer span {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+footer a {
+  cursor: pointer;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.desc p {
+  width: 560px;
+  color: rgba(253, 253, 253, 0.514);
+}
+
+#uv-address {
+  background: none;
+  font-family: inherit;
+  padding: 0px 17px;
+  height: 48px;
+  border: 1px solid rgb(255, 255, 255, 0.5);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 550px;
+  border-radius: 6px;
+  margin-top: 5px;
+  color: #fff;
+  transition: border-radius 0.1s;
+  text-align: center;
+}
+
+#uv-address:focus {
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.514);
+  border-radius: 50px;
+}
+
+.credit {
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  border: #fff 1px solid;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.credit label {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.credit a,
+.credit label {
+  color: white;
+  text-decoration: underline;
+  text-align: right;
+}
+
+.credit pre {
+  display: none;
+  width: 100%;
+}
+
+.credit label::after {
+  content: "show license";
+  cursor: pointer;
+}
+
+.credit input:checked + label::after {
+  content: "hide license";
+}
+
+.credit input:checked ~ pre {
+  display: block;
+}
+
+#seism {
+  height: 256px;
+  width: 512px;
+}
+
+canvas{ 
+  display: block; 
+  vertical-align: bottom; 
+} 
+
+/* ---- particles.js container ---- */ 
+#particles-js{ 
+  z-index: -1;
+  position:absolute; 
+  width: 100%; 
+  height: 100%; 
+  background-repeat: no-repeat; 
+  background-position: 50% 50%; 
+} 
+
+nav {
+  background-color: rgba(88, 87, 87, 0.15);  
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 1rem 0 rgba(59, 59, 59, 0.2); 
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+#seismnav {
+  height: 32px;
+  width: 160px;
+  position: fixed;
+  left: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+  background-color: #272727;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+a:hover {
+  text-align: center;
+  background-color: #3d3d3d;
+}
+
+.center {
+  text-align: center;
+}
+
+/* TABS */
+.center {
+  text-align: center;
+}
+
+.container {
+  margin-top: 10px;
+  background-color: #1a1a1a;
+  width: 150px;
+  height: 160px;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+}
+
+.image-container {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.rounded-image {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  height: auto;
+}
+
+.text-container {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#tab-button {
+  color: white;
+  background-color: #22c522;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+#tab-button:hover {
+  background-color: #a9a9a9;
+}
+
+#tab-p {
+  margin: 0;
+  font-size: 14px;
+}
